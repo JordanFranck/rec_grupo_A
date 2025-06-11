@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" href="css/style.css">
+	<title>Entrada de Vetor</title>
+</head>
+<body>
+	<h1>Trabalhando com Vetores</h1>
+	<form id="cadastro_professor">
+		<label for="valor">Digite um valor de cada vez:</label>
+        <input type="text" id="valor" name="valor" required>
+				
+		<button type="button" id="add-btn" onclick="adicionarValor()">Adicionar Valor</button>
+	
+
+		<table id="tabelaValores">
+			<thead>
+				<tr>
+					<th>Valores</th>
+				</tr>
+			</thead>
+				<tbody>
+					<!-- Valores adicionados aparecerão aqui -->
+				</tbody>
+		</table>
+
+
+
+		<button type="button" id="par-btn" onclick="mostrarPares()">Mostrar Números Pares</button>
+
+		<table id="tabelaPares">
+			<thead>
+				<tr>
+					<th>Números Pares</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Números pares aparecerão aqui -->
+			</tbody>
+		</table>
+
+	</form>	
+	<script src="js/script.js"></script>
+</body>
+</html>

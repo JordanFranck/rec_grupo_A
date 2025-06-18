@@ -10,7 +10,7 @@
 // }
 
 // function capturarSegundoNumeroInteiro() {
-//  const segundo_numero_inteiro = Number(document.getElementById("segundo_numero_inteiro").value); 
+//  const segundo_numero_inteiro = Number(document.getElementById("segundo_numero_inteiro").value);
 //  return segundo_numero_inteiro;
 // }
 
@@ -26,6 +26,21 @@
 // function imprimirResultadoNaTela(resultado_soma) {
 //   document.getElementById("resultado_soma").value = resultado_soma;
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -11,11 +11,6 @@ body {
     border-radius: 5px;
     background-color: #f9f9f9;
 }
-.button-group {
-    margin-top: 20px;
-    display: flex;
-    gap: 10px;
-}
 button {
     padding: 10px 15px;
     border: none;
@@ -25,4 +20,8 @@ button {
 .btn-primary {
     background-color: #4CAF50;
     color: white;
+}
+.h2 {
+  text-align: center;
+  justify-content: center;
 }
